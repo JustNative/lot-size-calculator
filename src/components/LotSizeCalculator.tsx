@@ -9,7 +9,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 // Pair information lookup table
 const PAIR_INFO = {
     "EUR/USD": 1,
-    "EUR/JPY": 1.62,
+    "EUR/JPY": 1.60,
     "NAS100": 10,
 } as const;
 
@@ -69,7 +69,7 @@ export default function LotSizeCalculator() {
     }, [state.riskAmount, state.stopLoss, state.pair]);
 
     return (
-        <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
+        <main className="min-h-svh bg-gray-100 flex items-center justify-center p-2">
             <Card className="w-full max-w-md">
                 <CardHeader className="bg-primary text-primary-foreground">
                     <CardTitle>Lot Size Calculator</CardTitle>
@@ -145,6 +145,6 @@ export default function LotSizeCalculator() {
                     </div>
                 </CardContent>
             </Card>
-        </div>
+        </main>
     );
 }

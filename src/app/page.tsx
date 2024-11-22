@@ -1,6 +1,8 @@
 import { Metadata } from 'next'
 
-import LotSizeCalculator from '@/components/LotSizeCalculator'
+// import LotSizeCalculator from '@/components/LotSizeCalculator'
+import dynamic from 'next/dynamic'
+const LotSizeCalculator = dynamic(() => import('@/components/LotSizeCalculator'))
 
 export const metadata: Metadata = {
   title: 'Forex Lot Size Calculator | Optimize Your Trading',
@@ -10,13 +12,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen">
-      <main className="flex-grow">
-        <section>
-          <LotSizeCalculator />
-        </section>
-      </main>
-    </div>
+    <LotSizeCalculator />
   )
 }
 
