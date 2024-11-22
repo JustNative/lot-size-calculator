@@ -1,37 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Lot Size Calculator
 
-## Getting Started
+The **Lot Size Calculator** is a React-based web tool designed for traders to calculate the optimal lot size for trading based on account balance, stop loss, risk amount, and currency pair information.
 
-First, run the development server:
+This project uses modern React practices, including `useReducer` for state management, and integrates UI components for a clean, user-friendly design.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Account Balance Input**: Enter your account balance to calculate lot size.
+- **Stop Loss Points**: Adjust stop loss points for precise calculations.
+- **Currency Pair Selection**: Select from predefined currency pairs with associated point values.
+- **Risk Amount Input**: Define the risk amount in dollars.
+- **Real-Time Calculation**: Automatically calculates the lot size as input values change.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
+- **React** with `useReducer` for state management.
+- **TypeScript** for type safety.
+- **UI Components** from a custom library (`Card`, `Input`, `Select`, etc.).
+- **Tailwind CSS** for styling.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Installation
 
-## Deploy on Vercel
+### Prerequisites
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Node.js (v16 or higher)
+- npm or yarn package manager
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# lot-size-calculator
+### Steps
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/JustNative/lot-size-calculator.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd lot-size-calculator
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+5. Open your browser and navigate to:
+   ```bash
+   http://localhost:3000
+   ```
+
+## Author
+- **JustNative** (https://github.com/JustNative)
+- **Contributors**: [List of contributors](https://github.com/JustNative/lot-size-calculator)
+- **License**: [License information](https://github.com/JustNative/lot-size-calculator)
+- **Contact**: [Contact information](https://github.com/JustNative)
+---
+
+## Useful Links
+
+- **[Lot Size Calculator](https://twittersave.com/)**: Quickly calculate optimal lot sizes.
+- **[Twitter Video Downloader](https://twittersave.com/)**: Download Twitter videos & GIFs easily.
