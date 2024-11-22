@@ -70,5 +70,5 @@ This project uses modern React practices, including `useReducer` for state manag
 
 ## Useful Links
 
-- **[Lot Size Calculator](https://twittersave.com/)**: Quickly calculate optimal lot sizes.
+- **[Lot Size Calculator](https://lot-size-calculator-seven.vercel.app/)**: Quickly calculate optimal lot sizes.
 - **[Twitter Video Downloader](https://twittersave.com/)**: Download Twitter videos & GIFs easily.
